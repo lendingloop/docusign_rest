@@ -1095,7 +1095,7 @@ module DocusignRest
 
       post_body = {
         authenticationMethod: 'email',
-        clientUserId:         options[:client_id] || options[:email],
+        # clientUserId:         options[:client_id] || options[:email],
         email:                options[:email],
         returnUrl:            options[:return_url],
         userName:             options[:name]
